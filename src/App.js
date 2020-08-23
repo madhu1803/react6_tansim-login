@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import { BrowserRouter, Route, Switch, Navigation } from "react-router-dom";
 import LeftContainer from "./MajorComponents/LeftContainer";
-import RightContainer from "./MajorComponents/RightContainer";
-import Login from "./Components/Login";
-import Signup from "./Components/Signup";
+import Login from "./MajorComponents/Login";
+import Signup from "./MajorComponents/Signup";
 
 export default class App extends Component {
   render() {
@@ -15,7 +14,6 @@ export default class App extends Component {
         <div className="col-lg-7">
           <BrowserRouter>
             <div>
-              {/* <Navigation /> */}
               <Switch>
                 <Route path="/login" component={Login} exact />
                 <Route path="/signup" component={Signup} />

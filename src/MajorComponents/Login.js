@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./Css/RightContainer.css";
 import Input from "../Components/Input";
 import Btn from "../Components/Btn";
 import { Form } from "react-bootstrap";
@@ -6,7 +7,7 @@ import { Form } from "react-bootstrap";
 export default class Login extends Component {
   render() {
     return (
-      <div className="text-capitalize">
+      <div className="right-container text-capitalize">
         <h2>Login</h2>
         <p className="text-muted pt-2 pb-2">Hello There! welcome Back</p>
         <Input />
