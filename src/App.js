@@ -5,9 +5,13 @@ import RightContainer from "./MajorComponents/RightContainer";
 export default class App extends Component {
   render() {
     return (
-      <div>
-        <LeftContainer />
-        <RightContainer />
+      <div className="row">
+        <div className="col-lg-5">
+          <LeftContainer />
+        </div>
+        <div className="col-lg-7">
+          <RightContainer />
+        </div>
       </div>
     );
   }
