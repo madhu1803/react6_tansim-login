@@ -1,12 +1,12 @@
 import React, { Component } from "react";
+import "./Css/RightContainer.css";
 import Input from "../Components/Input";
 import Btn from "../Components/Btn";
-import { Button } from "react-bootstrap";
 
 export default class RightContainer extends Component {
   render() {
     return (
-      <div>
+      <div className="right-container">
         <Input />
         <Btn />
       </div>
