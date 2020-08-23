@@ -1,7 +1,35 @@
 .left-container {
-    width: 100%;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    background-color: #2C387A;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 20% 10%;
+  background-color: #2c387a;
+}
+
+.left-container .header-txt {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 550;
+}
+
+.left-container .main-txt {
+  color: #5cdbf9;
+  text-align: center;
+  font-weight: 550;
+  line-height: 2.5rem;
+}
+
+.left-container .sub-txt {
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.left-container .login-txt {
+  position: fixed;
+  bottom: 100px;
+  left: 180px;
+}
+
+.left-container .login-txt a {
+  color: white !important;
 }
