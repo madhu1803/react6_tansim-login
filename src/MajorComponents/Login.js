@@ -10,8 +10,8 @@ export default class Login extends Component {
       <div className="right-container text-capitalize">
         <h2>Login</h2>
         <p className="text-muted pt-2 pb-2">Hello There! welcome Back</p>
-        <Input />
-        <Input />
+        <Input type="email" placeholder="Email Address" />
+        <Input type="password" placeholder="Password" />
         <Form.Group controlId="formBasicCheckbox">
           <Form.Check
             type="checkbox"
@@ -19,7 +19,7 @@ export default class Login extends Component {
             className="text-muted pb-3"
           />
         </Form.Group>
-        <Btn />
+        <Btn txt="Login" />
         <Form.Text className="text-muted pt-2">
           By signing up, you agree to the terms and conditions.
         </Form.Text>
