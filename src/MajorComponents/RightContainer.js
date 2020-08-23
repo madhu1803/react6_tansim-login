@@ -7,7 +7,7 @@ export default class RightContainer extends Component {
   render() {
     return (
       <div className="right-container">
-        <Login />
+        <Signup />
       </div>
     );
   }
